@@ -5,7 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class LoginService {
 
-  constructor() { }
+  constructor() { 
+    console.log('LoginService created.. ');
+  }
 
   isAdmin():boolean{
     console.log(' Going for isAdmin...');

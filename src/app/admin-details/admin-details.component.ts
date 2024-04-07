@@ -2,8 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-admin-details',
+  standalone: true,
+  imports: [],
   templateUrl: './admin-details.component.html',
-  styleUrls: ['./admin-details.component.css']
+  styleUrl: './admin-details.component.css'
 })
 export class AdminDetailsComponent {
 

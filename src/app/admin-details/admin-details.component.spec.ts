@@ -8,10 +8,10 @@ describe('AdminDetailsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AdminDetailsComponent ]
+      imports: [AdminDetailsComponent]
     })
     .compileComponents();
-
+    
     fixture = TestBed.createComponent(AdminDetailsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
